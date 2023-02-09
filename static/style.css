@@ -1,0 +1,94 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+h1 {
+  color: red;
+}
+#nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: rgb(209, 169, 169);
+}
+#logo{
+  display: flex;
+  height: 40px;
+  margin: auto 10px;
+}
+#nav li a {
+  color: white;
+  text-decoration: none;
+}
+li {
+  list-style: none;
+  padding: 10px;
+  margin: 10px;
+  color: white;
+  background-color: black;
+}
+#sponsors {
+  min-height: 250px;
+  /* border: 2px solid black; */
+  text-align: center;
+  margin-top: 5px;
+}
+.cards{
+  border: 1px solid rgb(183, 74, 74);
+  border-radius: 10px;
+  display: inline-block;
+  width: 30%;
+  margin: 10px;
+  padding: 10px;
+  height: 30vh;
+}
+#footer {
+  min-height: 50px;
+  background-color: black;
+  color: white;
+  justify-content: center;
+  margin-top: 5px;
+  align-items: center;
+  display: flex;
+}
+#intro {
+  background-image: url("/static/intro_image.jpg");
+  background-size: cover;
+  background-color: #cccccc;
+  color: white;
+  min-height: 240px;
+  margin-top: 5px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.myInput {
+  margin: 10px;
+  padding: 10px;
+  width: 35%;
+  border: 2px solid black;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 15px;
+}
+#heading{
+  text-align: center;
+}
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#contact{
+  margin-top: 15px;
+  min-height: 80vh;
+}
+#submit{
+  padding: 10px;
+  margin: 10px;
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: rgb(108, 189, 108);
+}

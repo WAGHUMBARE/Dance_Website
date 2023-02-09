@@ -1,0 +1,31 @@
+extends base.pug
+
+block scripts 
+  script
+    include ../static/script.js
+
+block styles 
+    style
+      include ../static/style.css
+
+block content 
+  
+  #intro 
+    h3 Eat Dance Sleep Repeat!!!
+  section#sponsors 
+     h3 Sponsor's section 
+     .cards 
+        h2 card1
+        | Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam, aliquid!
+        | Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero sed 
+        |  facilis quisquam blanditiis aspernatur temporibus.
+     .cards 
+        h2 card2 
+        | Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore possimus perspiciatis quo esse odio nostrum officiis neque? 
+        | Consectetur aut maiores debitis, laborum, quos quia quod impedit voluptatum, excepturi sit nobis.
+     .cards 
+        h2 card3 
+        |Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione, omnis.
+        | Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores iusto saepe aliquam placeat sapiente delectus, non quis provident officia eius?
+        | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae, repellat?
+  
